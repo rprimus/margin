@@ -1,0 +1,23 @@
+==> MARGIN.STM <==
+BELFOX; BFX; BEL 20 Index; BXF; 1750; N/A; 1750; 1400; EUR; 
+CBOT; AC; Ethanol -CME; AC; 3375; N/A; 3375; 2500; USD; 
+CBOT; INDU; Dow Jones Industrial Average; DJ; 6500; 5200; 13000; 10400; USD; 
+CBOT; SA; 5 Year Swap Future; NG; 1215; N/A; 1215; 900; USD; 
+CBOT; SR; 10 Year Swap Futures; NI; 2025; N/A; 2025; 1500; USD; 
+CBOT; YC; Mini Sized Corn Futures; YC; 270; N/A; 270; 200; USD; 
+CBOT; YK; Mini Sized Soybean Futures; YK; 743; N/A; 743; 550; USD; 
+CBOT; YW; Mini Sized Wheat Futures; YW; 324; N/A; 324; 240; USD; 
+CBOT; ZB; 30 Year US Treasury Bond; US; 1283; 950; 2565; 1900; USD; 
+CBOT; ZC; Corn Futures; C; 1350; N/A; 1350; 1000; USD; 
+
+==> t1.out <==
+BELFOX; BFX; BEL 20 Index; BXF; 1875; N/A; 1875; 1500; EUR; 
+CBOT; AC; Ethanol -CME; AC; 3375; N/A; 3375; 2500; USD; 
+CBOT; INDU; Dow Jones Industrial Average; DJ; 6500; 5200; 13000; 10400; USD; 
+CBOT; SA; 5 Year Swap Future; NG; 1215; N/A; 1215; 900; USD; 
+CBOT; SR; 10 Year Swap Futures; NI; 2025; N/A; 2025; 1500; USD; 
+CBOT; YC; Mini Sized Corn Futures; YC; 270; N/A; 270; 200; USD; 
+CBOT; YK; Mini Sized Soybean Futures; YK; 743; N/A; 743; 550; USD; 
+CBOT; YW; Mini Sized Wheat Futures; YW; 324; N/A; 324; 240; USD; 
+CBOT; ZB; 30 Year US Treasury Bond; US; 1283; 950; 2565; 1900; USD; 
+CBOT; ZC; Corn Futures; C; 1350; N/A; 1350; 1000; USD; 
