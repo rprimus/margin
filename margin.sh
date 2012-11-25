@@ -4,7 +4,7 @@
 
 
 date=$(date +%d%m%Y)
-outdir='/usr/local/micro/margin'
+outdir="$HOME/margin"
 prefix='ib_margin'
 file="$outdir/${prefix}-${date}"
 tickers='(EUR|E7|GBP|JPY|AUD|CAD|CHF|CL|QM|COIL|QG|WTI|ZN|DX)'

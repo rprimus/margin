@@ -11,7 +11,7 @@
 -define(FILE_PREFIX, "ib_margin-").
 -define(FLATTEN(X), lists:flatten(io_lib:format("~2..0w", [X]))).
 -define(CMD, "links -dump http://interactivebrokers.com/en/p.php?f=margin").
--define(OUTDIR, "/usr/local/micro/margin/").
+-define(OUTDIR, get_homedir() ++ "/margin/").
 
 start() ->
   parse_file("margin.stm-09052010").
@@ -40,6 +40,9 @@ parse_file(File) ->
     Error ->
       {File, Error}
   end.
+
+get_homedir() ->
+    os:getenv("HOME").
 
 %% lists:map(fun(X) -> string:strip(X) end, string:tokens(binary_to_list(B), ";\r\n"))
 %%lists:map(fun(X) -> string:strip(X) end, string:tokens(margin:parse_file("margin.stm-09052010"), ";")).
