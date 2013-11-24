@@ -4,13 +4,14 @@
 -module(margin).
 -export([start/0, gen_list/0, parse_file/1]).
 -import(string, [tokens/2, strip/1]).
--import(lists, [prefix/2, suffix/2, map/2, concat/1]).
+-import(lists, [prefix/2, suffix/2, map/2]).
 
 -define(EXCHANGES, ["ECBOT", "GLOBEX", "IPE", "NYBOT", "NYMEX"]).
 -define(TRADE, ["EUR", "E7", "CL", "QM", "ZN"]).
 -define(FILE_PREFIX, "ib_margin-").
 -define(FLATTEN(X), lists:flatten(io_lib:format("~2..0w", [X]))).
--define(CMD, "links -dump http://interactivebrokers.com/en/p.php?f=margin").
+%% -define(CMD, "links -dump http://interactivebrokers.com/en/p.php?f=margin").
+-define(CMD, "elinks -dump 'https://www.interactivebrokers.com/en/index.php?f=marginnew&p=fut'").
 -define(OUTDIR, get_homedir() ++ "/margin/").
 
 start() ->
